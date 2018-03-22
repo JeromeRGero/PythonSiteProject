@@ -28,7 +28,7 @@
     vertical-align: top;
     text-align: center;
     background-color: #444444;
-    box-shadow: 2px 2px 5px #000000cb;
+    box-shadow: 2px 2px 5px #141414;
 }
 
 #search {
@@ -42,7 +42,7 @@
     color: white;
     padding: 7px 10px;
     text-align: center;
-    box-shadow: 2px 2px 5px #000000cb
+    box-shadow: 2px 2px 5px #141414;
 }
 
 /* -------------nav------------- */
@@ -55,7 +55,7 @@
     width: 780px;
     background: linear-gradient(#3575ad, #48749b, #3575ad);
     display: block;
-    box-shadow: 2px 2px 5px #000000cb
+    box-shadow: 2px 2px 5px #141414;
 }
 
 #nav a {
@@ -158,7 +158,6 @@
     height: 100px;
     text-align: center;
     background: radial-gradient(#3b80bd, #245076);
-    font-style: none;
 }
 
 #footer h4 {
