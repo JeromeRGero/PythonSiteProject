@@ -1,0 +1,210 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* -------------IDs------------- */
+
+#wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 970px;
+    background-color: #245076;
+    margin: 0% auto;
+}
+
+#pre-header {
+    text-align: right;
+    padding-top: 10px;
+    margin-right: 60px;
+}
+
+#search_block {
+    width: 280px;
+    height: 65px;
+    margin-top: 5px;
+    margin-left: 330px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    background-color: #444444;
+    box-shadow: 2px 2px 5px #000000cb;
+}
+
+#search {
+    width: 160px;
+    height: 30px;
+}
+
+#go_button {
+    border-radius: 7px;
+    background-color: #245076;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px #000000cb
+}
+
+/* -------------nav------------- */
+
+#nav {
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 90px;
+    text-align: center;
+    width: 780px;
+    background: linear-gradient(#3575ad, #48749b, #3575ad);
+    display: block;
+    box-shadow: 2px 2px 5px #000000cb
+}
+
+#nav a {
+    text-decoration: none;
+    text-align: center;
+    /* line hieght can ALSO be used to center content perfectly within an object. */
+    margin: 10px 15px;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+}
+
+/* -------------content space 1------------- */
+
+#q_links {
+    text-align: center;
+    vertical-align: top;
+    margin: 40px 0px 0px 140px;
+    display: inline-block;
+}
+
+#q_links li a{
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+#q_links li {
+    margin-top: 10px;
+}
+
+#about {
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 570px;
+    height: 300px;
+    display: inline-block;
+}
+
+#about p {
+    color: white;
+    font-size: 12px;
+}
+
+#about h3 {
+    font-weight: normal;
+    color: yellow;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+#about h4 {
+    color: white;
+    margin-top: 25px;
+}
+
+#split_content {
+    width: 970px;
+    background-color: white;
+    text-align: center;
+}
+
+#split_content p {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+#getting_started, #applications {
+    margin-top: 10px;
+    border-top: 5px solid #245076;
+}
+
+#getting_started a, #applications a{
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 12px;
+}
+
+#getting_started li, #applications li{
+    list-style-type: square;
+    margin-left: 100px;
+    width: 200px;
+    font-size: 12px;
+}
+
+#getting_started {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#applications {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#footer {
+    height: 100px;
+    text-align: center;
+    background: radial-gradient(#3b80bd, #245076);
+    font-style: none;
+}
+
+#footer h4 {
+    color: #85b7e3;
+    margin: 40px 20px 25px 20px;
+    text-align: center;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#footer p {
+    vertical-align: top;
+    font-size: 12px;
+    color: #85b7e3;
+}
+
+
+/* -------------classes------------- */
+
+.make_yellow {
+    color: #c9ac01;
+}
+
+.make_black {
+    color: #000000
+}
+
+.small_blue {
+    color: dodgerblue;
+    font-size: 11px;
+}
+
+
+/* -------------tags------------- */
+
+#pre-header h6 {
+    color: #fff;
+}
+
+#header img {
+    width: 320px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#search_block form {
+    margin-top: 15px;
+}
